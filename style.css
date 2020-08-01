@@ -1,0 +1,90 @@
+body,
+html {
+  background-color: #131314;
+}
+
+header {
+  padding: 20px 20px 30px 20px;
+  background: linear-gradient(45deg, black, #333);
+}
+
+.navbar-brand a {
+  color: white;
+  font-size: 25px;
+  font-family: "Righteous", Arial, Helvetica, sans-serif;
+}
+.navbar-brand a:hover {
+  color: white;
+}
+
+.navbar-brand a span {
+  margin-left: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  color: #ccc;
+}
+
+.navbar-menu a {
+  color: white;
+}
+.navbar-menu a:hover {
+  color: #ccc;
+  background-color: transparent;
+}
+
+.navbar-end a {
+  font-size: 25px;
+}
+.navbar-end a:hover {
+  color: white;
+}
+
+.background-black {
+  background-image: url("images/img-bannerprincipal.png");
+}
+
+.navbar {
+  background: transparent;
+}
+
+.columns {
+  padding: 50px;
+}
+
+article hr {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.message-body h1 {
+  margin-bottom: 15px;
+  color: #990000;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+.image > img {
+  background-position: center;
+  background-size: contain;
+}
+
+.img-technologies {
+  display: block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.field .button {
+  margin-top: 15px;
+  background-color: #333;
+}
+.field .button:hover {
+  margin-top: 15px;
+  background-color: #333;
+  box-shadow: 0 0 15px rgb(170, 170, 170);
+}
+
+@media screen and (max-width: 1023px) {
+  a span {
+    display: none;
+  }
+}

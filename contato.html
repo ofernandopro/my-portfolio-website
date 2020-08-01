@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fernando Moreira</title>
+    <!-- Montserrat: -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Righteous: -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Righteous&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome: -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+    ></script>
+    <!-- Bulma from CDN: -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.0/css/bulma.min.css"
+    />
+    <!-- Pure CSS: -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- favicon: -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="index.html">
+            Fernando Moreira <span> | </span>
+          </a>
+
+          <a
+            role="button"
+            class="navbar-burger burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu is-active">
+          <div class="navbar-start">
+            <a class="navbar-item" href="index.html">
+              Home
+            </a>
+
+            <a class="navbar-item" href="contato.html">
+              Contact Me
+            </a>
+
+            <a
+              class="navbar-item"
+              target="_blank"
+              href="https://oprogramadorexpert.com.br"
+            >
+              My Company's Website
+            </a>
+          </div>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-end">
+            <a
+              target="_blank"
+              class="navbar-item"
+              href="https://www.instagram.com/oprogramadorexpert/?hl=pt-br"
+            >
+              <i class="fab fa-instagram"></i>
+            </a>
+
+            <a
+              target="_blank"
+              class="navbar-item"
+              href="https://twitter.com/oprogexpert"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+
+            <a
+              target="_blank"
+              class="navbar-item"
+              href="https://www.facebook.com/oprogramadorexpert"
+            >
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="background-black">
+      <div class="container">
+        <div class="columns">
+          <navbar class="column is-3">
+            <div class="card">
+              <div class="card-image">
+                <img src="images/eu.jpg" alt="" />
+              </div>
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-content">
+                    <p class="title is-4">Fernando Moreira</p>
+                    <p>
+                      <i class="fab fa-github"></i>
+                      <a href="https://github.com/ofernandopro"
+                        >@ofernandopro</a
+                      >
+                    </p>
+                    <span class="tag is-dark is-medium"
+                      >JavaScript Full-Stack Developer</span
+                    >
+                  </div>
+                </div>
+
+                <div class="content">
+                  <p>fernandoepm.pro@gmail.com</p>
+                </div>
+              </div>
+            </div>
+          </navbar>
+
+          <section class="column is-9">
+            <article class="message is-white" style="border: 1px solid #ccc;">
+              <div
+                class="message-header"
+                style="border-bottom: 1px solid #ccc;"
+              >
+                <p>Contact me:</p>
+              </div>
+              <div class="message-body">
+                <div class="field">
+                  <label class="label">Email</label>
+                  <div class="control has-icons-left has-icons-right">
+                    <input
+                      class="input"
+                      type="email"
+                      placeholder="Email input"
+                    />
+                    <span class="icon is-small is-left">
+                      <i class="far fa-envelope"></i>
+                    </span>
+                  </div>
+                </div>
+
+                <div class="field">
+                  <label class="label">Message</label>
+                  <div class="control">
+                    <textarea class="textarea" placeholder=""></textarea>
+                  </div>
+                </div>
+
+                <div class="field is-grouped">
+                  <div class="control">
+                    <button class="button is-link">Submit</button>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
